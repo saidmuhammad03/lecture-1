@@ -52,4 +52,43 @@ What is ES6?ES6 stands for ECMAScript 6 .ECMAScript was created to standardize J
   # 2 Non-primitive (reference) data type. (object)
 
 ![Data types js ](./Data-Types-In-JavaScript-780x470.png "Data Types in java script")
+
+
+# -OPERATORS-
+### 1.Arithmetic - +,-,*,/
+### 2.Comparison - ==,===,>=,<=,!=,!==
+### 3.Logical - ||,&&,!
+### 4.Type conversations - Number("3.14)
+### 5.Assignment - =,+=,-=,*=,/=,^=,%=
+
+![OPERA ](./2023-11-15_04-57-44.png "OPERATION")
+# Three important topics
+## 1.Conditions
+## 2.Loops
+## 3.Functions
+
+
+### ^Condition Operarators
+#### Condition ? True : False
+
+## Function
+### 1.Function-declaration
+### 2.Function-expression -> 1.Arrow function 2.Anonumus.F
+### 3.Immediately invoked function expression (IIFE)
+
+#### * function_declaration:
+function name (v,a){
+return v * a;
+}
+console.log(name(value,value))
+#### * function_expression:
+let anonymous=function(parametr){
+    return parametr
+}
+anonymus("hi")
+
+let arrow =(parametr)=>{
+    return parametr
+}
+console.log(arrow("hi"))
   
